@@ -1,4 +1,4 @@
-package org.interfaces.livrarias;
+package org.interfaces.exercicioLivrarias;
 
 public interface Livraria {
 	double TAXA_EMPRESTIMO = 2.8;

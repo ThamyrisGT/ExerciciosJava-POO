@@ -1,4 +1,4 @@
-package org.interfaces.olimpiadas;
+package org.interfaces.exercicioOlimpiadas;
 
 public class Pais {
 	private String nome;

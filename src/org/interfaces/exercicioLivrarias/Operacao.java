@@ -1,4 +1,4 @@
-package org.interfaces.livrarias;
+package org.interfaces.exercicioLivrarias;
 
 public class Operacao implements Livraria {
 	private String tipo;
