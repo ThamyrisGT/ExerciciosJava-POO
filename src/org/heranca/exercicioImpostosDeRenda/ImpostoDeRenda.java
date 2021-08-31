@@ -1,4 +1,4 @@
-package org.heranca.exercicioImpostoDeRenda;
+package org.heranca.exercicioImpostosDeRenda;
 
 public class ImpostoDeRenda {
 	protected String nome, telefone, email;

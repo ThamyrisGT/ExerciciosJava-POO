@@ -1,4 +1,4 @@
-package org.heranca.exercicioImpostoDeRenda;
+package org.heranca.exercicioImpostosDeRenda;
 
 public class PessoaFisica extends ImpostoDeRenda {
 	private String cpf, rg;

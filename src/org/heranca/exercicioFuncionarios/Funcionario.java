@@ -1,4 +1,4 @@
-package org.heranca.exercicioFuncionario;
+package org.heranca.exercicioFuncionarios;
 
 public class Funcionario {
 	protected String nome, cpf;

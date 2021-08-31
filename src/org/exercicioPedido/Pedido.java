@@ -38,12 +38,20 @@ public class Pedido {
 		return total;
 	}
 
-	public void FinalizarPedido() {
-		if (this.dataPedido.getDayOfWeek() == DayOfWeek.SUNDAY) {
+	private boolean isDomingo(LocalDate data) {
+		return data.getDayOfWeek() == DayOfWeek.SUNDAY;
+	}
+
+	private void calcularPedido(boolean isDomingo) {
+		if (isDomingo) {
 			this.total = this.quantidade * this.valor * 0.9;
 		} else {
-			this.total = this.valor * this.quantidade;
+			this.total = this.quantidade * this.valor;
 		}
+	}
+
+	public void finalizarPedido() {
+		calcularPedido(isDomingo(this.dataPedido));
 	}
 
 //	public String getDataPedido() {

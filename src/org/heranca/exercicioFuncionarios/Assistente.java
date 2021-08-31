@@ -1,4 +1,4 @@
-package org.heranca.exercicioFuncionario;
+package org.heranca.exercicioFuncionarios;
 
 public class Assistente extends Funcionario {
 	private double adicional;
