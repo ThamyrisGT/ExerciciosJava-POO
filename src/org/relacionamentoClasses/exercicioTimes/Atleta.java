@@ -5,6 +5,10 @@ public class Atleta {
 	private int idade;
 	private String posicao;
 
+	public Atleta() {
+		super();
+	}
+
 	public Atleta(String nome, int idade, String posicao) {
 		super();
 		this.nome = nome;

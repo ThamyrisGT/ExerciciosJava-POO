@@ -10,9 +10,9 @@ public class Main {
 		int tamTime = 0;
 		int i = 0;
 
-		Time time = new Time(new Atleta[tamTime]);
 		System.out.println("Digite o número de jogadores que deseja no time ");
 		tamTime = sc.nextInt();
+		Time time = new Time(new Atleta[tamTime]);
 
 		while (i < tamTime) {
 			String nome;
@@ -34,5 +34,4 @@ public class Main {
 		sc.close();
 
 	}
-
 }

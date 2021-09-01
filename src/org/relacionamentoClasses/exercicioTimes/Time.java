@@ -51,7 +51,7 @@ public class Time {
 	}
 
 	public void mostrarTime() {
-		for (int i = 0; i < atletas.length; i++) {
+		for (int i = 0; i <atletas.length; i++) {
 			System.out.println(atletas[i].getNome());
 		}
 	}

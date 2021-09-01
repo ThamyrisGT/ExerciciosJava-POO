@@ -37,17 +37,17 @@ public class Operacao implements Livraria {
 
 	@Override
 	public String toString() {
-		return "Operacao tipo:" + tipo + ", valorOperacao=" + valorOperacao;
+		return String.format( "Operacao tipo: %s valor operação R$ %.2f \n",tipo,valorOperacao);
 	}
 
 	public void vender() {
 		valorOperacao = livro.getValor() + livro.getValor() * 0.09;
-		System.out.println(valorOperacao);
+		System.out.println(String.format("Valor: R$ %.2f ", valorOperacao));
 
 	}
 
 	public void emprestar() {
 		valorOperacao = livro.getValor() * 0.02 + TAXA_EMPRESTIMO;
-		System.out.println(valorOperacao);
+		System.out.println(String.format("Valor: R$ %.2f ", valorOperacao));
 	}
 }
